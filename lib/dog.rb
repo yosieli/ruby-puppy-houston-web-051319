@@ -5,8 +5,8 @@ class Dog
     @name=name
   @@all << self
   end
-  def self.all(name)
-    puts  @@all[name]
+  def self.all
+    puts  @@all[:name]
     
   end
   def self.clear_all 
