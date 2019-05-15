@@ -6,7 +6,7 @@ class Dog
   @@all << self
   end
   def self.all
-    puts  @@all[:name]
+    puts  initialize
     
   end
   def self.clear_all 
